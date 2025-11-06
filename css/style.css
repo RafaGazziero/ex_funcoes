@@ -1,0 +1,57 @@
+body {
+  background-color: #eef3f8;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+/* fundo principal */
+#fundo {
+  background: #fff;
+  width: 90%;
+  max-width: 800px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#fundo h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* caixas individuais */
+.caixas {
+  background-color: #f7faff;
+  border: 1px solid #dce3ed;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.caixas h2 {
+  color: #34495e;
+  margin-bottom: 8px;
+}
+
+.caixas p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* botões */
+a {
+  display: inline-block;
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #357ab8;
+}
